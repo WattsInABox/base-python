@@ -1,0 +1,17 @@
+version: '3.6'
+# these containers are only meant for development / test purposes
+services:
+  dev:
+    build: 
+      context: . # so that the container can see all the python source code
+      dockerfile: systems/dev_environment/Dockerfile
+      args:
+        PROJECT_NAME: ${PROJECT_NAME}
+        PROJECT_DEPLOY_ROOT: ${PROJECT_DEPLOY_ROOT}
+    image: dev_environment_${PROJECT_NAME} # simple tag for easy look-ups
+    volumes:
+      # source code will be at /usr/src/main/python
+      # tests are at /usr/src/test/python
+      - ./src:/usr/src
+      - /var/run/docker.sock:/var/run/docker.sock # used to run docker commands w/i the container
+

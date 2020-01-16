@@ -1,0 +1,10 @@
+*.pyd
+.DS_Store
+.cache/
+__pycache__/
+app/logs
+.coverage
+dist/
+MANIFEST
+*.egg-info/
+.pytest_cache/

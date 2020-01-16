@@ -1,0 +1,4 @@
+pytest
+docker==4.0.2
+pytest-cov
+pytest-randomly

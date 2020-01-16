@@ -1,0 +1,13 @@
+file:
+  /usr/local/bin/python:
+    exists: true
+    mode: "0777"
+    owner: root
+    group: root
+    linked-to: python3
+    filetype: symlink
+  /usr/src/app/requirements.txt:
+    exists: true
+    owner: root
+    group: root
+    filetype: file
