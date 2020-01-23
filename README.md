@@ -1,12 +1,6 @@
-# Triangle, Triangle, What Art Thou, Triangle?
+# README, README, What Art Thou, README?
 
-Shakespeare aside, this is Billy Watson's attempt to solve the following problem:
-
-    Write a program in either Python or Java that reads 3 inputs. These inputs represent the lengths of 3 lines. The program must identify the type of triangle (equilateral, scalene, or isosceles) that would be formed by connecting the endpoints of each line.
- 
-    Published Criteria:
-    * The program may read console input or input from a file
-    * The program must be production quality
+Shakespeare aside, this is Billy Watson's attempt at a python template project.
 
 ## Setup
 
@@ -33,17 +27,6 @@ TODO
 
 ## Tasks
 
-- [ ] constructor for triangle should take 3 sides
-- [ ] method should be able to return triangle type
-- [ ] CLI should take in 3 sides of a triangle
-- [ ] CLI should print triangle type
-- [ ] CLI should error out if less than 3 arguments are given
-- [ ] CLI should error out if more than 3 arguments are given
-- [ ] CLI should error out if any argument is a string
-- [ ] CLI should error out if arguments cannot form a triangle
-- [ ] triangle type determination should be seperate from the CLI
-- [ ] create and document easy usage through `invoke`
-- [ ] should allow for more triangle determinations in the future
-- [ ] should allow for more triangle specifications in the future
-
-
+- [ ] task 1
+- [ ] task 2
+- [ ] task 3
