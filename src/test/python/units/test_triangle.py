@@ -8,5 +8,5 @@ class TestTriangle(object):
         
         triangle = Triangle(sides)
 
-        assert sides = triangle.sides
+        assert triangle.sides == sides
 

@@ -5,7 +5,7 @@ import sys
 import_paths = [
     path.abspath(
         path.join(
-            path.dirname(__file__), '..', '..', 'src', 'main', 'python'))
+            path.dirname(__file__), '..', '..', 'main', 'python'))
 ]
 
 [sys.path.insert(0, import_path) for import_path in import_paths]
