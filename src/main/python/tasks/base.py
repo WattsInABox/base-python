@@ -74,4 +74,4 @@ def install(ctx):
 @task
 def run(ctx):
     # runs the default application with default parameters
-    return ctx.run("java -cp target/*.jar com.disney.ali.Driver")
+    return ctx.run("python somemain.py")
